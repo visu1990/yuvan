@@ -1,6 +1,6 @@
 ---
 - name:  update the  web server
-  hosts:  webserver
+  hosts:  all
   remote_user: root
   tasks:  
       - name:   apache  is the latest  version 
