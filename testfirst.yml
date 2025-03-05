@@ -8,10 +8,10 @@
         ansible.builtin.yum: 
              name: httpd
              state: latest
-       - name: Write hostname to config file
-         ansible.builtin.template:
-          src: templates/config.j2
-          dest: /tmp/config
+      - name: Write hostname to config file
+        ansible.builtin.template:
+            src: /srv/templates/config.j2
+            dest: /tmp/config
     
         
              
