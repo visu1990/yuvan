@@ -10,7 +10,7 @@
              state: latest
       - name: to write the configuration 
         ansible.builtin.template:
-             name: /srv/httpd.j2
+             name: /srv/httpd.conf
              dest: /etc/httpd.conf
         
              
