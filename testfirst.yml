@@ -8,9 +8,6 @@
         ansible.builtin.yum: 
              name: httpd
              state: latest
-      - name: to write the configuration 
-        ansible.builtin.template:
-             name: /srv/httpd.conf
-             dest: /etc/httpd.conf
+    
         
              
