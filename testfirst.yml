@@ -10,7 +10,7 @@
              state: latest
       - name: Write hostname to config file
         ansible.builtin.template:
-            src: /etc/motd
+            src: /srv/templates/config.j2
             dest: /tmp/config
     
         
