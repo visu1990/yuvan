@@ -2,6 +2,7 @@
 - name:  update the  web server
   hosts:  all
   remote_user: root
+  gather_facts: no 
   tasks:  
       - name:   apache  is the latest  version 
         ansible.builtin.yum: 
