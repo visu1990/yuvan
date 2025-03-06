@@ -6,7 +6,7 @@
   tasks:  
       - name:   apache  is the latest  version 
         ansible.builtin.yum: 
-             name:  elasticsearch
+             name:  samba
              state: latest
     
     
